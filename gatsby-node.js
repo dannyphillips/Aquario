@@ -4,9 +4,4 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-exports.onCreatePage = async ({ page, actions }) => {
-  const { createPage } = actions
-
-    // Here you can create your static pages
-    // createPage();
-}
+ // You can delete this file if you're not using it
