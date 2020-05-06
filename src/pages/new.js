@@ -34,7 +34,7 @@ const TitleInput = styled.input`
   font-size: 18px;
 `;
 
-class NewtankPage extends Component {
+class NewTankPage extends Component {
   static contextTypes = {
     firebase: PropTypes.object,
   };
@@ -246,4 +246,4 @@ class NewtankPage extends Component {
   }
 }
 
-export default NewtankPage;
+export default NewTankPage;

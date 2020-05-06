@@ -22,6 +22,7 @@ class Auth extends React.Component {
   state = INITIAL_STATE;
 
   componentDidMount() {
+    debugger;
     const { auth } = this.context.firebase;
     // onAuthStateChanged returns an unsubscribe method
     this.stopAuthListener = auth().onAuthStateChanged(user => {
