@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Input from '../../../../../atoms/Input';
-import Button from '../../../../../atoms/Button';
+import Input from '../../../../../Input';
+import Button from '../../../../../Button';
 
 class DefaultLoginToggle extends Component {
   constructor(props) {

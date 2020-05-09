@@ -4,7 +4,7 @@ import { navigate } from 'gatsby';
 
 import { withFirebase } from '../../../../../utils/Firebase';
 import { HOME } from '../../../../../constants/routes';
-import Button from '../../../../../atoms/Button';
+import Button from '../../../../../Button';
 
 const INITIAL_STATE = {
   email: '',

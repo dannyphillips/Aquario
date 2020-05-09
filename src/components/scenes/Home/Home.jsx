@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import { withFirebase } from '../../../utils/Firebase';
-import Input from '../../atoms/Input';
-import Button from '../../atoms/Button';
-import Loading from '../../atoms/Loading';
-import Image from '../../atoms/Image';
+import Input from '../../Input';
+import Button from '../../Button';
+import Loading from '../../Loading';
+import Image from '../../Image';
 
 class Home extends Component {
   _initFirebase = false;
