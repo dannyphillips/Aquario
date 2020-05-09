@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { LANDING, HOME, ACCOUNT } from '../../../../constants/routes';
 import logo from '../../../../assets/icon.png'
-import SignOutButton from './SignOutButton';
+import SignOutButton from '../../../SignOutButton';
 
 const NavigationAuth = () => (
   <div className="navbar">
