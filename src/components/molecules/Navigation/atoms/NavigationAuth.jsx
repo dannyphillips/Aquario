@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { LANDING, HOME, ACCOUNT } from '../../../../constants/routes';
+import logo from '../../../../assets/icon.png'
 import SignOutButton from './SignOutButton';
 
 const NavigationAuth = () => (
@@ -10,7 +11,7 @@ const NavigationAuth = () => (
         <div className="navbar__logo">
           <Link to={LANDING}>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQpF9FqbFiuhAohxs9UkTIkkJbAv_IU0cXHRxsKpoFFSgfXC7"
+              src={logo}
               alt="logo"
             />
           </Link>
