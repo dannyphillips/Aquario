@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-firebase-starter",
+  "name": "aquario",
   "description": "Starter for Authentication and creating Dynamic pages from collections with Firebase and Gatsby.js",
   "scripts": {
     "develop": "gatsby develop",
@@ -8,7 +8,6 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "classnames": "^2.2.6",
     "firebase": "7.14.3",
     "gatsby": "^2.17.10",
     "gatsby-image": "^2.2.30",

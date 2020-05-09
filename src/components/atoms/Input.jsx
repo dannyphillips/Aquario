@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 
 const Input = ({
   name,
@@ -11,7 +10,7 @@ const Input = ({
   className,
 }) => {
   return (
-    <div className={classNames('input', className)}>
+    <div>
       <input
         name={name}
         value={value}

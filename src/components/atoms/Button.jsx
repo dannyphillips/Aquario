@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 
 const Button = ({
   text = 'Submit',
@@ -11,9 +10,6 @@ const Button = ({
   return (
     <button
       type={type}
-      className={classNames('btn', className, {
-        'btn--disabled': disabled,
-      })}
       onClick={onClick}
       disabled={disabled}
     >

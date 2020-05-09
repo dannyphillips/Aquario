@@ -21,22 +21,4 @@
       background-color: rgba(#cc433d, 0.9);
     }
   }
-  &--facebook {
-    background-color: #3a5999;
-    &:hover {
-      background-color: rgba(#3a5999, 0.9);
-    }
-  }
-  &--twitter {
-    background-color: #5aa4eb;
-    &:hover {
-      background-color: rgba(#5aa4eb, 0.9);
-    }
-  }
-  &--github {
-    background-color: black;
-    &:hover {
-      background-color: rgba(black, 0.9);
-    }
-  }
 }

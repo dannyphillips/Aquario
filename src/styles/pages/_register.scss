@@ -114,31 +114,6 @@
             }
           }
         }
-        &--facebook {
-          button {
-            background-color: #3a5999;
-            &:hover {
-              background-color: rgba(#3a5999, 0.9);
-            }
-          }
-        }
-        &--twitter {
-          button {
-            background-color: #5aa4eb;
-            &:hover {
-              background-color: rgba(#5aa4eb, 0.9);
-            }
-          }
-        }
-
-        &--github {
-          button {
-            background-color: black;
-            &:hover {
-              background-color: rgba(black, 0.9);
-            }
-          }
-        }
       }
     }
     &__or {
@@ -189,8 +164,6 @@
       flex-direction: column;
       justify-content: flex-end;
       width: 100%;
-    }
-    > div {
     }
     &__header {
       display: flex;

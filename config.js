@@ -13,7 +13,6 @@ module.exports = {
     disqusShortname: '',
     postsPerPage: 4,
     image: 'gatsby-firebase-starter',
-    twitterUsername: 'gatsby-firebase-starter',
   },
   home: {
     url: 'http://gatsby-firebase-starter.com',
@@ -26,20 +25,11 @@ module.exports = {
     disqusShortname: '',
     postsPerPage: 4,
     image: 'gatsby-firebase-starter',
-    twitterUsername: 'gatsby-firebase-starter',
   },
   author: {
-    name: 'Ovidiu-Mihai Belciug',
+    name: 'Danny Phillips',
     photo: '/photo.jpg',
     bio:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: 'ovidiumihaibelciug',
-      rss: '#',
-      vkontakte: '#',
-    },
+      'I like to build things',
   },
 };
