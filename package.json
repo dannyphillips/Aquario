@@ -5,7 +5,9 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "firebase": "7.14.3",
@@ -24,6 +26,8 @@
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.11.0",
-    "recompose": "^0.30.0"
-  }
+    "recompose": "^0.30.0",
+    "snyk": "^1.427.0"
+  },
+  "snyk": true
 }
