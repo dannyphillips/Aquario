@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "2.7.0",
     "gatsby-plugin-sitemap": "2.5.0",
     "gatsby-source-filesystem": "2.4.0",
-    "gatsby-transformer-sharp": "2.5.21",
+    "gatsby-transformer-sharp": "2.7.0",
     "gatsby": "2.25.1",
     "react-dom": "16.14.0",
     "react-helmet": "5.2.1",
