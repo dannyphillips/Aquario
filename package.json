@@ -27,7 +27,7 @@
     "react-icons": "^4.2.0",
     "react": "^17.0.1",
     "recompose": "^0.30.0",
-    "snyk": "^1.455.0"
+    "snyk": "^1.460.0"
   },
   "snyk": true
 }
