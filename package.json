@@ -10,7 +10,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "firebase": "^9.6.6",
+    "firebase": "^9.6.8",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-create-client-paths": "^2.10.0",
     "gatsby-plugin-manifest": "^2.12.1",
